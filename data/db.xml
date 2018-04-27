@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+
+<cursos>
+    <curso>
+        <titulo>Aprender Blender desde cero</titulo>
+        <img>../images/cursos/blender.jpg</img>
+        <descripcion>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit vero fugiat repellendus nostrum doloremque sunt tenetur a? Ducimus maiores excepturi quasi est eum, impedit aliquam esse recusandae, nesciunt fugit quis!</descripcion>
+        <categoria>modelado 3d</categoria>
+        <profesor>Julian Ortega</profesor>
+        <horas>25</horas>
+        <precio>29.99</precio>
+    </curso>
+    <curso>
+        <titulo>Diseño de tipografia</titulo>
+        <img>images/cursos/tipografia.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci laborum facere, veniam minus corporis sit error eum hic obcaecati nisi molestias voluptas commodi esse, ducimus nostrum exercitationem, accusantium sunt.</descripcion>
+        <categoria>diseño de imagen</categoria>
+        <profesor>Alicia Ramos</profesor>
+        <horas>5</horas>
+        <precio>9.99</precio>
+    </curso>
+    <curso>
+        <titulo>Edicion de video con Adobe Premiere</titulo>
+        <img>../images/cursos/blende.png</img>
+        <descripcion>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quas animi, quaerat aperiam explicabo pariatur natus vel assumenda, quidem incidunt dolor sequi expedita cupiditate laboriosam illum deserunt perferendis vero fuga.</descripcion>
+        <categoria>edición de video</categoria>
+        <profesor>Rosa Arriaga</profesor>
+        <horas>100</horas>
+        <precio>59.99</precio>
+    </curso>
+    <curso>
+        <titulo>Aprende javascript like a profesional</titulo>
+        <img>../images/cursos/blende.png</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at cum labore debitis quos, pariatur libero vel a eius iusto repellendus enim iste optio. Impedit sunt quis quidem ullam sit?</descripcion>
+        <categoria>edición de video</categoria>
+        <profesor>Luis Patata</profesor>
+        <horas>300</horas>
+        <precio>69.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animacion 3D desce 0</titulo>
+        <img>../images/cursos/blende.png</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>animacion 3d</categoria>
+        <profesor>Sarah Watson</profesor>
+        <horas>100</horas>
+        <precio>59.99</precio>
+    </curso>
+    <curso>
+        <titulo>Ilustración para cartelería</titulo>
+        <img>images/cursos/blende.png</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fuga quisquam mollitia impedit illum optio quam adipisci quae doloremque sed, harum quaerat repellendus officia ad, quidem totam accusamus, explicabo deleniti.</descripcion>
+        <categoria>Ilustración</categoria>
+        <profesor>Alicia Ramos</profesor>
+        <horas>20</horas>
+        <precio>9.99</precio>
+    </curso>
+    
+</cursos>
