@@ -10,11 +10,11 @@
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
+                        
                     </xsl:attribute>
 
                     <h3 class="title"><xsl:value-of select="titulo"/></h3>
                    
-                    <h4 class="precio"><xsl:value-of select="precio"/> €</h4>
                     
                 </li>
             </xsl:for-each>
