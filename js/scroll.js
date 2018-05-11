@@ -33,3 +33,34 @@ let didScroll;
             
             lastScrollTop = st;
 }
+
+document.addEventListener("scroll",()=>{
+    document.getElementById("searchCursos").style.display = "none";
+    $(':focus').blur()
+})
+
+
+function mostrarCursos(){
+   document.getElementById("searchCursos").style.display = "block";
+   
+}
+
+function ocultarCursos(){
+document.getElementById("searchCursos").style.display = "none";
+}
+
+   $(document).ready(function() {
+
+    $('input[type="search"]').keyup(function(){
+
+    var filter = jQuery(this).val();
+        jQuery("#searchCursos ul li").each(function () {
+            if (jQuery(this).text().search(new RegExp(filter, "i")) < 0) {
+                jQuery(this).hide();
+            } else {
+                jQuery(this).show();
+                jQuery(this).children().show();
+            }
+        });    
+    });
+})

@@ -14,41 +14,6 @@
 </head>
 
 <body>
-    <script>
-        document.addEventListener("scroll",()=>{
-            document.getElementById("searchCursos").style.display = "none";
-            $(':focus').blur()
-        })
-    
-
-       function mostrarCursos(){
-           document.getElementById("searchCursos").style.display = "block";
-           
-       }
-
-       function ocultarCursos(){
-        document.getElementById("searchCursos").style.display = "none";
-       }
-
-       	$(document).ready(function() {
-
-$('input[type="search"]').keyup(function(){
-
-var filter = jQuery(this).val();
-jQuery("#searchCursos ul li").each(function () {
-    if (jQuery(this).text().search(new RegExp(filter, "i")) < 0) {
-        jQuery(this).hide();
-    } else {
-        jQuery(this).show();
-        jQuery(this).children().show();
-    }
-});    
-});
-})
-        
-    </script>
-
-
     <script src="js/scroll.js"></script>
     <header id="header" class="nav-down">
         <div class="logo"></div>
@@ -74,13 +39,16 @@ jQuery("#searchCursos ul li").each(function () {
         </nav>
     </header>
     <aside>
+         
         <div class="layerLock"><div class="textLayer">Nuestros cursos son únicos</div></div>
         <video class="videoC" src="video/videoplayback.mp4" autoplay loop muted></video>
+        
 
     </aside>
     <main id="cursos"></main>
 
     <footer>  
+     
     </footer>
 </body>
 
