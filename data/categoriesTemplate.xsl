@@ -7,7 +7,7 @@
                    <xsl:for-each select="submenu/categoria">
                     <li>
                         <xsl:attribute name="value"><xsl:value-of select="icono"/></xsl:attribute>
-                        <a href="../pages/categories.html"><xsl:value-of select="titulo"/></a>
+                        <a href="pages/categories.html"><xsl:value-of select="titulo"/></a>
                     </li>
                    </xsl:for-each>
                 </ul>
