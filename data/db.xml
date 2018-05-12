@@ -3,7 +3,7 @@
 <cursos>
     <curso>
         <titulo>Aprender Blender desde cero</titulo>
-        <img>../images/cursos/blender.jpg</img>
+        <img>images/cursos/blender.jpg</img>
         <descripcion>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit vero fugiat repellendus nostrum doloremque sunt tenetur a? Ducimus maiores excepturi quasi est eum, impedit aliquam esse recusandae, nesciunt fugit quis!</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Julian Ortega</profesor>
@@ -12,7 +12,7 @@
     </curso>
     <curso>
         <titulo>Diseño de tipografia</titulo>
-        <img>../images/cursos/tipografia.jpg</img>
+        <img>images/cursos/tipografia.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci laborum facere, veniam minus corporis sit error eum hic obcaecati nisi molestias voluptas commodi esse, ducimus nostrum exercitationem, accusantium sunt.</descripcion>
         <categoria>Arte Gráfico</categoria>
         <profesor>Alicia Ramos</profesor>
@@ -21,7 +21,7 @@
     </curso>
     <curso>
         <titulo>Edicion de video con Adobe Premiere</titulo>
-        <img>../images/cursos/premiere.jpg</img>
+        <img>images/cursos/premiere.jpg</img>
         <descripcion>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quas animi, quaerat aperiam explicabo pariatur natus vel assumenda, quidem incidunt dolor sequi expedita cupiditate laboriosam illum deserunt perferendis vero fuga.</descripcion>
         <categoria>edición de video</categoria>
         <profesor>Rosa Arriaga</profesor>
@@ -30,7 +30,7 @@
     </curso>
     <curso>
         <titulo>Aprende javascript like a profesional</titulo>
-        <img>../images/cursos/curso-javascript.png</img>
+        <img>images/cursos/curso-javascript.png</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at cum labore debitis quos, pariatur libero vel a eius iusto repellendus enim iste optio. Impedit sunt quis quidem ullam sit?</descripcion>
         <categoria>Diseño web</categoria>
         <profesor>Luis Patata</profesor>
@@ -39,7 +39,7 @@
     </curso>
     <curso>
         <titulo>Animacion 3D desce 0</titulo>
-        <img>../images/cursos/animacion3d.jpg</img>
+        <img>images/cursos/animacion3d.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Sarah Watson</profesor>
@@ -48,7 +48,7 @@
     </curso>
     <curso>
         <titulo>Ilustración para cartelería</titulo>
-        <img>../images/cursos/ilustracion.jpg</img>
+        <img>images/cursos/ilustracion.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fuga quisquam mollitia impedit illum optio quam adipisci quae doloremque sed, harum quaerat repellendus officia ad, quidem totam accusamus, explicabo deleniti.</descripcion>
         <categoria>Ilustración</categoria>
         <profesor>Alicia Ramos</profesor>
@@ -57,7 +57,7 @@
     </curso>
     <curso>
         <titulo>Animacion Modulo 2</titulo>
-        <img>../images/cursos/animacion2d.jpeg</img>
+        <img>images/cursos/animacion2d.jpeg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Paquita Watson</profesor>
@@ -66,7 +66,7 @@
     </curso>
     <curso>
         <titulo>Animacion 3D - despega</titulo>
-        <img>../images/cursos/curso-online-810x456.jpg</img>
+        <img>images/cursos/curso-online-810x456.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Ramon Raticulin</profesor>
@@ -75,7 +75,7 @@
     </curso>
     <curso>
         <titulo>Animación al poder</titulo>
-        <img>../images/cursos/cursos3d.jpg</img>
+        <img>images/cursos/cursos3d.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Francisco Quintana</profesor>
@@ -84,7 +84,7 @@
     </curso>
     <curso>
         <titulo>Animación 3D digital</titulo>
-        <img>../images/cursos/hqdefault.jpg</img>
+        <img>images/cursos/hqdefault.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Francisco Quintana</profesor>
@@ -93,7 +93,7 @@
     </curso>
     <curso>
         <titulo>Animación rápida</titulo>
-        <img>../images/cursos/images3d.jpeg</img>
+        <img>images/cursos/images3d.jpeg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Manuela Quintana</profesor>
@@ -102,7 +102,7 @@
     </curso>
     <curso>
         <titulo>Animación en un santiamen</titulo>
-        <img>../images/cursos/maxresdefault.jpg</img>
+        <img>images/cursos/maxresdefault.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Paquita Jhons</profesor>

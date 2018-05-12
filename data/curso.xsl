@@ -21,7 +21,7 @@
 
                         <div class="reg imageCurso">
                             <xsl:attribute name="style">
-                                background-image: url(<xsl:value-of select="img"/>);
+                                background-image: url(../<xsl:value-of select="img"/>);
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;

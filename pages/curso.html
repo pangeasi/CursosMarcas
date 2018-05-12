@@ -69,7 +69,7 @@
            
            $('.submenu li').each(function(i){
                 
-               cssStyle += ".smli" + i + "::before { background-image: url(" + $(this).attr('value') + ");}"
+               cssStyle += ".smli" + i + "::before { background-image: url(../" + $(this).attr('value') + ");}"
 
             })
             var style = document.createElement('style');

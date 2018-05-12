@@ -42,7 +42,7 @@
 
 <script src="js/loadXML.js"></script>
     <script>	
-        loadXML("data/db.xml", "data/cursos.xsl" , "cursos");
+        loadXML("data/db.xml", "data/cursosIndex.xsl" , "cursos");
         loadXML("data/db.xml", "data/templateSearch.xsl" , "searchCursos");
         loadXML("data/dbPage.xml","data/categoriesTemplate.xsl", "subm");
         loadXML("data/footerdb.xml","data/footerTemplate.xsl", "foot")
@@ -90,6 +90,7 @@
                 location.href = baseURI + 'pages/curso.html';
             })
             $('.submenu li').click(function(){
+                console.log(baseURI + 'pages/categories.html')
                 location.href = baseURI + 'pages/categories.html';
             })
 
