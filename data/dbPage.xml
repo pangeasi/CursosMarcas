@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+
+<submenu>
+    <categoria>
+        <titulo>Diseño web</titulo>
+        <icono>../images/if_globe_2561444.svg</icono>
+    </categoria>
+    <categoria>
+        <titulo>Analisis imagen</titulo>
+        <icono>../images/if_eye_2561430.svg</icono>
+    </categoria>
+    <categoria>
+        <titulo>Diseño</titulo>
+        <icono>../images/if_edit-3_2561260.svg</icono>
+    </categoria>
+    <categoria>
+        <titulo>Arte Gráfico</titulo>
+        <icono>../images/if_image_2561450.svg</icono>
+    </categoria>
+    <categoria>
+        <titulo>Animación 2D y 3D</titulo>
+        <icono>../images/if_layers_2561455.svg</icono>
+    </categoria>
+    <categoria>
+        <titulo>Fotografía</titulo>
+        <icono>../images/if_camera_2561351.svg</icono>
+    </categoria>
+</submenu>

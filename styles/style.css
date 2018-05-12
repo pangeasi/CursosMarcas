@@ -8,6 +8,8 @@ body {
     height: 100px;
     background-color: rgba(190, 201, 229, 0.842);
     position: fixed;
+    display: grid;
+    grid-template-columns: 0.2fr 3fr 1fr;
     z-index: 3;
     border-bottom: 2px solid rgb(185, 185, 189);
     transform: rotate(-1deg) translateY(-9px);
@@ -27,12 +29,13 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     margin: 10px 30px 10px;
-    float: left;
+
+    cursor: pointer;
 }
 
 .categories {
     font-size: 1.4em;
-    padding: 55px 0px 55px 45px;
+    padding: 5px 0px 100px 30px;
 }
 .categories:hover > .submenu {
     display: block;
@@ -41,7 +44,7 @@ body {
     content: "";
     width: 30px;
     height: 30px;
-    margin: 5px -45px;
+    margin: 0px -45px;
     background-image: url(../images/if_App_2638291.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -56,7 +59,7 @@ body {
     width: 250px;
     height: 320px;
     top: 55px;
-    left: 190px;
+    left: 32px;
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.377);  
     transform: skewY(-1deg);    
 }
@@ -77,25 +80,6 @@ body {
     position: absolute; 
 }
 
-.dw::before {
-    background-image: url(../images/if_globe_2561444.svg);
-}
-.ai::before {
-    background-image: url(../images/if_eye_2561430.svg);
-}
-.di::before {
-    background-image: url(../images/if_edit-3_2561260.svg);
-}
-.ag::before {
-    background-image: url(../images/if_image_2561450.svg);
-}
-.an::before {
-    background-image: url(../images/if_layers_2561455.svg);
-}
-.fo::before {
-    background-image: url(../images/if_camera_2561351.svg); 
-}
-
 .normal input#search {
     font-family: 'Montserrat';
     font-size: 1.5em;
@@ -114,9 +98,8 @@ body {
 
 #searchCursos  {
     background-color: aliceblue;
-    width: 47%;
-    margin-left: 435px;
-    position: absolute;
+    position: relative;
+    left: -60px;
     display: none;
 }
 
@@ -129,13 +112,16 @@ body {
 
 .normal {
     position: relative;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 50px;
     top: 36px;
     transform: rotate(1deg);
 }
 .log {
-    float: right;
+
     position: relative;
-    top: 20px;
+    top: 60px;
     transform: rotate(1deg);
 }
 .normal div {
@@ -241,7 +227,9 @@ main ul {
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-
+.hideli{
+    display: none;
+}
 main ul li {
     background-color: aquamarine;
     width: 250px;

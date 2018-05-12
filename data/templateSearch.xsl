@@ -10,12 +10,8 @@
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
-                        
                     </xsl:attribute>
-
                     <h3 class="title"><xsl:value-of select="titulo"/></h3>
-                   
-                    
                 </li>
             </xsl:for-each>
         </ul>

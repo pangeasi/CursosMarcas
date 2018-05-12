@@ -9,12 +9,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
-    <script src="js/scroll.js"></script>
+    <script src="../js/scroll.js"></script>
     <header id="header" class="nav-down">
         <div class="logo"></div>
         <nav class="normal">
@@ -34,10 +34,11 @@
     <aside>
          
         <div class="layerLock"><div class="textLayer">Nuestros cursos son únicos</div></div>
-        <video class="videoC" src="video/videoplayback.mp4" autoplay loop muted></video>
+        <video class="videoC" src="../video/videoplayback.mp4" autoplay loop muted></video>
         
 
     </aside>
+    <div class="categName"></div>
     <main id="cursos"></main>
 
     <footer>  
@@ -45,11 +46,11 @@
     </footer>
 </body>
 
-<script src="js/loadXML.js"></script>
+<script src="../js/loadXML.js"></script>
     <script>	
-        loadXML("data/db.xml", "data/cursos.xsl" , "cursos");
-        loadXML("data/db.xml", "data/templateSearch.xsl" , "searchCursos");
-        loadXML("data/dbPage.xml","data/categoriesTemplate.xsl", "subm")
+        loadXML("../data/db.xml", "../data/cursos.xsl" , "cursos");
+        loadXML("../data/db.xml", "../data/templateSearch.xsl" , "searchCursos");
+        loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm")
 
         setTimeout(function(){
             let categorie;
@@ -59,7 +60,7 @@
             })
             categorie = localStorage.getItem("categorieName"); 
             console.log(categorie)
-            //$('#mainPage').append('<h2>' + categorie + '</h2>')
+            $('.categName').append('<h2>' + categorie + '</h2>')
             
 
            let cssStyle = "" 
@@ -79,9 +80,16 @@
             })
             
             $(".curso li").each(function(){
-                console.log($(this).attr('value'))
+
+                if($(this).attr('value') != categorie){
+                    $(this).addClass('hideli')
+                }
             })
 
+            $('.logo').click(function(){
+                location.href = '../index.html';
+            })
+ 
 
         },200)
         
