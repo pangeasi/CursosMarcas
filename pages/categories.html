@@ -50,6 +50,7 @@
         setTimeout(function(){
             let categorie;
             let curso;
+            let baseURI = localStorage.getItem("baseuri");
 
             $('.submenu li').click(function(){
                 localStorage.setItem("categorieName",$(this).text())
@@ -90,13 +91,13 @@
             })
 
             $('.logo').click(function(){
-                location.href = '../index.html';
+                location.href = baseURI + '';
             })
             $('.title').click(function(){
-                location.href = 'curso.html';
+                location.href = baseURI + 'pages/curso.html';
             })
             $('.submenu li').click(function(){
-                location.href = 'categories.html';
+                location.href = baseURI + 'pages/categories.html';
             })
  
 
