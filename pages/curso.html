@@ -9,12 +9,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
-    <script src="js/scroll.js"></script>
+    <script src="../js/scroll.js"></script>
     <header id="header" class="nav-down">
         <div class="logo"></div>
         <nav class="normal">
@@ -31,21 +31,21 @@
             <div class="registrate">REGISTRATE</div>
         </nav>
     </header>
-    <aside>
-        <div class="layerLock"><div class="textLayer">Nuestros cursos son únicos</div></div>
-        <video class="videoC" src="video/videoplayback.mp4" autoplay loop muted></video>
-    </aside>
+    <div class="margin"></div>
+    <div class="categName"></div>
     <main id="cursos"></main>
+
     <footer id="foot">  
+     
     </footer>
 </body>
 
-<script src="js/loadXML.js"></script>
+<script src="../js/loadXML.js"></script>
     <script>	
-        loadXML("data/db.xml", "data/cursos.xsl" , "cursos");
-        loadXML("data/db.xml", "data/templateSearch.xsl" , "searchCursos");
-        loadXML("data/dbPage.xml","data/categoriesTemplate.xsl", "subm");
-        loadXML("data/footerdb.xml","data/footerTemplate.xsl", "foot")
+        loadXML("../data/db.xml", "../data/curso.xsl" , "cursos");
+        loadXML("../data/db.xml", "../data/templateSearch.xsl" , "searchCursos");
+        loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm");
+        loadXML("../data/footerdb.xml","../data/footerTemplate.xsl", "foot")
 
         setTimeout(function(){
             let categorie;
@@ -62,7 +62,6 @@
             })
             
             curso = localStorage.getItem("cursoName")
-            //$('#mainPage').append('<h2>' + categorie + '</h2>')
             
 
            let cssStyle = "" 
@@ -81,16 +80,23 @@
                 $(this).addClass("smli" + i)
             })
             
-            $(".curso li").each(function(){
-                console.log($(this).attr('value'))
+           $(".cursoli").each(function(){
+
+                if($(this).find('h1').text() != curso){
+                    $(this).addClass('hideli')
+                }
+            }) 
+
+            $('.logo').click(function(){
+                location.href = '../index.html';
             })
             $('.title').click(function(){
-                location.href = '/pages/curso.html';
+                location.href = 'curso.html';
             })
             $('.submenu li').click(function(){
-                location.href = '/pages/categories.html';
+                location.href = 'categories.html';
             })
-
+ 
 
         },100)
         

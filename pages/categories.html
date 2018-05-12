@@ -31,17 +31,11 @@
             <div class="registrate">REGISTRATE</div>
         </nav>
     </header>
-    <aside>
-         
-        <div class="layerLock"><div class="textLayer">Nuestros cursos son únicos</div></div>
-        <video class="videoC" src="../video/videoplayback.mp4" autoplay loop muted></video>
-        
-
-    </aside>
+    <div class="margin"></div>
     <div class="categName"></div>
     <main id="cursos"></main>
 
-    <footer>  
+    <footer id="foot">  
      
     </footer>
 </body>
@@ -50,16 +44,25 @@
     <script>	
         loadXML("../data/db.xml", "../data/cursos.xsl" , "cursos");
         loadXML("../data/db.xml", "../data/templateSearch.xsl" , "searchCursos");
-        loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm")
+        loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm");
+        loadXML("../data/footerdb.xml","../data/footerTemplate.xsl", "foot")
 
         setTimeout(function(){
             let categorie;
-            
+            let curso;
+
             $('.submenu li').click(function(){
                 localStorage.setItem("categorieName",$(this).text())
             })
             categorie = localStorage.getItem("categorieName"); 
-            console.log(categorie)
+            
+            $('.title').click(function(){
+                
+                localStorage.setItem("cursoName",$(this).text())
+            })
+            
+            curso = localStorage.getItem("cursoName")
+            
             $('.categName').append('<h2>' + categorie + '</h2>')
             
 
@@ -89,9 +92,15 @@
             $('.logo').click(function(){
                 location.href = '../index.html';
             })
+            $('.title').click(function(){
+                location.href = 'curso.html';
+            })
+            $('.submenu li').click(function(){
+                location.href = 'categories.html';
+            })
  
 
-        },200)
+        },100)
         
             
     </script>

@@ -3,11 +3,13 @@
 
    <xsl:template match="/">
 
-               <ul class="submenu">
-                   <xsl:for-each select="submenu/categoria">
+               <ul>
+                   <xsl:for-each select="rrss/item">
                     <li>
                         <xsl:attribute name="value"><xsl:value-of select="icono"/></xsl:attribute>
+
                         <xsl:value-of select="titulo"/>
+
                     </li>
                    </xsl:for-each>
                 </ul>

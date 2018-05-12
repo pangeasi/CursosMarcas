@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<rrss>
+    <item>
+        <titulo>Twitter</titulo>
+        <link></link>
+        <icono></icono>
+    </item>
+    <item>
+        <titulo>YouTube</titulo>
+        <link></link>
+        <icono></icono>
+    </item>
+    <item>
+        <titulo>Facebook</titulo>
+        <link></link>
+        <icono></icono>
+    </item>
+    <item>
+        <titulo>Instagram</titulo>
+        <link></link>
+        <icono></icono>
+    </item>
+</rrss>

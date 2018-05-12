@@ -46,20 +46,23 @@ function mostrarCursos(){
 }
 
 function ocultarCursos(){
-document.getElementById("searchCursos").style.display = "none";
-}
+    setTimeout(function(){
+        document.getElementById("searchCursos").style.display = "none";
+    },200)
+
+} 
 
    $(document).ready(function() {
 
     $('input[type="search"]').keyup(function(){
 
-    var filter = jQuery(this).val();
-        jQuery("#searchCursos ul li").each(function () {
-            if (jQuery(this).text().search(new RegExp(filter, "i")) < 0) {
-                jQuery(this).hide();
+    var filter = $(this).val();
+        $("#searchCursos ul li").each(function () {
+            if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                $(this).hide();
             } else {
-                jQuery(this).show();
-                jQuery(this).children().show();
+                $(this).show();
+                $(this).children().show();
             }
         });    
     });

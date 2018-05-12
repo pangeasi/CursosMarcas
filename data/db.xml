@@ -14,7 +14,7 @@
         <titulo>Diseño de tipografia</titulo>
         <img>../images/cursos/tipografia.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci laborum facere, veniam minus corporis sit error eum hic obcaecati nisi molestias voluptas commodi esse, ducimus nostrum exercitationem, accusantium sunt.</descripcion>
-        <categoria>diseño de imagen</categoria>
+        <categoria>Arte Gráfico</categoria>
         <profesor>Alicia Ramos</profesor>
         <horas>5</horas>
         <precio>9.99</precio>
@@ -32,7 +32,7 @@
         <titulo>Aprende javascript like a profesional</titulo>
         <img>../images/cursos/curso-javascript.png</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi at cum labore debitis quos, pariatur libero vel a eius iusto repellendus enim iste optio. Impedit sunt quis quidem ullam sit?</descripcion>
-        <categoria>edición de video</categoria>
+        <categoria>Diseño web</categoria>
         <profesor>Luis Patata</profesor>
         <horas>300</horas>
         <precio>69.99</precio>
@@ -40,7 +40,7 @@
     <curso>
         <titulo>Animacion 3D desce 0</titulo>
         <img>../images/cursos/animacion3d.jpg</img>
-        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
         <categoria>Animación 2D y 3D</categoria>
         <profesor>Sarah Watson</profesor>
         <horas>100</horas>
@@ -54,5 +54,59 @@
         <profesor>Alicia Ramos</profesor>
         <horas>20</horas>
         <precio>9.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animacion Modulo 2</titulo>
+        <img>../images/cursos/animacion2d.jpeg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Animación 2D y 3D</categoria>
+        <profesor>Paquita Watson</profesor>
+        <horas>50</horas>
+        <precio>39.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animacion 3D - despega</titulo>
+        <img>../images/cursos/curso-online-810x456.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Animación 2D y 3D</categoria>
+        <profesor>Ramon Raticulin</profesor>
+        <horas>10</horas>
+        <precio>29.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animación al poder</titulo>
+        <img>../images/cursos/cursos3d.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Animación 2D y 3D</categoria>
+        <profesor>Francisco Quintana</profesor>
+        <horas>20</horas>
+        <precio>49.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animación 3D digital</titulo>
+        <img>../images/cursos/hqdefault.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Animación 2D y 3D</categoria>
+        <profesor>Francisco Quintana</profesor>
+        <horas>90</horas>
+        <precio>109.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animación rápida</titulo>
+        <img>../images/cursos/images3d.jpeg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Animación 2D y 3D</categoria>
+        <profesor>Manuela Quintana</profesor>
+        <horas>10</horas>
+        <precio>19.99</precio>
+    </curso>
+    <curso>
+        <titulo>Animación en un santiamen</titulo>
+        <img>../images/cursos/maxresdefault.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Animación 2D y 3D</categoria>
+        <profesor>Paquita Jhons</profesor>
+        <horas>30</horas>
+        <precio>29.99</precio>
     </curso>
 </cursos>

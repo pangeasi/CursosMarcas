@@ -4,7 +4,6 @@
    <xsl:template match="/">
         <ul class="curso">
             <xsl:for-each select="cursos/curso">
-                
                 <li>
                     <xsl:attribute name="style" >
                         background-image: url(<xsl:value-of select="img"/>);
@@ -18,10 +17,7 @@
                         <h3 class="title"><xsl:value-of select="titulo"/></h3>
                         <h4 class="precio"><xsl:value-of select="precio"/> €</h4>  
                 </li>
-                
             </xsl:for-each>
         </ul>
-
    </xsl:template>
-
 </xsl:stylesheet>
