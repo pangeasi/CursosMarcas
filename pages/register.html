@@ -33,7 +33,24 @@
     </header>
     <div class="margin"></div>
     <div class="categName"></div>
-    <main id="cursos"></main>
+    <main class="formRegMain">
+        <div class="formRegister">
+            <h1>Bien!</h1>
+            <h2>Estas a un solo paso de registrarte</h2>
+            <form action="">
+                
+                <label>Nombre: </label><input type="text">
+                <label>Correo: </label><input type="email">
+                <label>Contraseña: </label><input type="password">
+                <label>Re-Contraseña: </label><input type="password">
+                <br>
+                <input type="button" value="Enviar">
+
+            </form>
+            <br>
+            <a href="pages/login.html">Ya estas registrado?</a>
+        </div>
+    </main>
 
     <footer id="foot">  
      
@@ -42,7 +59,7 @@
 
 <script src="../js/loadXML.js"></script>
     <script>	
-        loadXML("../data/db.xml", "../data/cursos.xsl" , "cursos");
+        
         loadXML("../data/db.xml", "../data/templateSearch.xsl" , "searchCursos");
         loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm");
         loadXML("../data/footerdb.xml","../data/footerTemplate.xsl", "foot")
@@ -64,8 +81,6 @@
             
             curso = localStorage.getItem("cursoName")
             
-            $('.categName').append('<h2>' + categorie + '</h2>')
-            
 
            let cssStyle = "" 
            
@@ -83,27 +98,23 @@
                 $(this).addClass("smli" + i)
             })
             
-            $(".curso li").each(function(){
+           $(".cursoli").each(function(){
 
-                if($(this).attr('value') != categorie){
+                if($(this).find('h1').text() != curso){
                     $(this).addClass('hideli')
                 }
-            })
+            }) 
 
             $('.logo').click(function(){
-                location.href = baseURI + '';
+                location.href =  baseURI + '';
             })
             $('.title').click(function(){
-                location.href = baseURI + 'pages/curso.html';
+                location.href =  baseURI + 'pages/curso.html';
             })
             $('.submenu li').click(function(){
-                
                 location.href = baseURI + 'pages/categories.html';
             })
-            $('.registrate').click(function(){
-                location.href = baseURI + 'pages/register.html';
-            })
-
+ 
 
         },100)
         
