@@ -14,4 +14,7 @@ setTimeout(function(){
     $('.registrate').click(function(){
         location.href = baseURI + 'pages/register.html';
     })
+    $('.login').click(function(){
+        location.href = baseURI + 'pages/login.html';
+    })
 },150)

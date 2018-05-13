@@ -2,7 +2,7 @@
 document.body.style.fontSize = ((window.innerHeight/100)*12.25)+"%"
 
 setTimeout(function(){
-
+    $('.chargin').hide()
     let categorie
     let curso
     let cssStyle = ""
@@ -62,5 +62,51 @@ setTimeout(function(){
         $(this).addClass("smli" + i)
     })
 
+
+    let loged = false
+    let user = localStorage.getItem('userLogin')
+
     
-},150)
+        $('.closeSession').click(function(){
+            $('.login,.registrate').show()
+            $('.saludoHead,.closeSession').hide()
+            localStorage.setItem('userLogin','null')
+            user = localStorage.getItem('userLogin')
+            console.log(typeof(user))
+        })
+
+        $('#loggin').click(function(){
+            localStorage.setItem('userLogin',document.getElementById("user").value)
+            user = localStorage.getItem('userLogin')
+            document.getElementById('saludo').innerHTML = "Hola, " + user
+            document.getElementsByClassName('saludoHead')[0].innerHTML = "Hola, " + user
+            $('.saludoHead,.closeSession').show()
+            $('.login,.registrate').hide()
+            console.log(user.type)
+        })
+
+
+
+    if(user == 'null'){
+        loged = false
+        $('.login,.registrate').show()
+        $('.saludoHead,.closeSession').hide()
+
+    }else{
+
+
+        loged = true;
+        $('.login,.registrate').hide()
+        $('.saludoHead,.closeSession').show()
+        document.getElementsByClassName('saludoHead')[0].innerHTML = "Hola, " + user
+        
+        if(document.baseURI.match(/login/) == 'login'){
+            
+            document.getElementById('saludo').innerHTML = "Hola, " + user
+        }
+        
+    }
+    console.log(loged)
+    
+},300)
+$('.chargin').show()

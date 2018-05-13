@@ -33,23 +33,20 @@
     <div class="margin"></div>
     <div class="categName"></div>
     <main class="formRegMain">
-        <div class="formRegister">
-            <h1>Bien!</h1>
-            <h2>Estas a un solo paso de registrarte</h2>
-            <form action="">
-                
-                <label>Nombre: </label><input type="text">
-                <label>Correo: </label><input type="email">
-                <label>Contraseña: </label><input type="password">
-                <label>Re-Contraseña: </label><input type="password">
+            <div class="formRegister">
+                <h1 id="saludo">Hola, introduce tus datos:</h1>
+                <form action="">
+                    
+                    <label>Usuario: </label><input type="text" id="user">
+                    <label>Contraseña: </label><input type="password">
+                    <br>
+                    <input type="button" value="entrar" id="loggin">
+    
+                </form>
                 <br>
-                <input type="button" value="Enviar">
-
-            </form>
-            <br>
-            <a href="pages/login.html">Ya estas registrado?</a>
-        </div>
-    </main>
+                <a href="pages/register.html">No estas registrado?</a>
+            </div>
+        </main>
 
     <footer id="foot">  
      
@@ -57,10 +54,13 @@
 </body>
 
 <script src="../js/loadXML.js"></script>
+
     <script>	
         loadXML("../data/db.xml", "../data/templateSearch.xsl" , "searchCursos");
         loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm");
         loadXML("../data/footerdb.xml","../data/footerTemplate.xsl", "foot")
+
+
     </script>
     <script src="../js/config.js"></script>
     <script src="../js/routes.js"></script>
