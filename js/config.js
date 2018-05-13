@@ -8,7 +8,11 @@ setTimeout(function(){
     let cssStyle = ""
     let baseURI = localStorage.getItem("baseuri");
 
-    console.log(categorie)
+    if(document.baseURI.match(/pages/) == null){
+        let baseURI = document.baseURI;
+        localStorage.setItem("baseuri",baseURI)
+    }
+
     $('.submenu li').click(function(){
         localStorage.setItem("categorieName",$(this).text())
     })

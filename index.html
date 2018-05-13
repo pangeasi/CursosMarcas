@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Proyecto de plataforma de cursos</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
-
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
@@ -46,16 +43,6 @@
         loadXML("data/db.xml", "data/templateSearchIndex.xsl" , "searchCursos");
         loadXML("data/dbPage.xml","data/categoriesTemplate.xsl", "subm");
         loadXML("data/footerdb.xml","data/footerTemplate.xsl", "foot")
-        
-        setTimeout(function(){
-
-            let baseURI = document.baseURI;
-            localStorage.setItem("baseuri",baseURI)
-
-            $(".curso li").each(function(){
-                console.log($(this).attr('value'))
-            })
-        },150)
     </script>
     <script src="js/config.js"></script>
     <script src="js/routes.js"></script>
