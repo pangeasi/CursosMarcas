@@ -59,65 +59,10 @@
 
 <script src="../js/loadXML.js"></script>
     <script>	
-        
         loadXML("../data/db.xml", "../data/templateSearch.xsl" , "searchCursos");
         loadXML("../data/dbPage.xml","../data/categoriesTemplate.xsl", "subm");
         loadXML("../data/footerdb.xml","../data/footerTemplate.xsl", "foot")
-
-        setTimeout(function(){
-            let categorie;
-            let curso;
-            let baseURI = localStorage.getItem("baseuri");
-
-            $('.submenu li').click(function(){
-                localStorage.setItem("categorieName",$(this).text())
-            })
-            categorie = localStorage.getItem("categorieName"); 
-            
-            $('.title').click(function(){
-                
-                localStorage.setItem("cursoName",$(this).text())
-            })
-            
-            curso = localStorage.getItem("cursoName")
-            
-
-           let cssStyle = "" 
-           
-           $('.submenu li').each(function(i){
-                
-               cssStyle += ".smli" + i + "::before { background-image: url(../" + $(this).attr('value') + ");}"
-
-            })
-            var style = document.createElement('style');
-            style.type = 'text/css';
-            style.innerHTML = cssStyle;
-            document.getElementsByTagName('head')[0].appendChild(style);
-
-            $('.submenu li').each(function(i){
-                $(this).addClass("smli" + i)
-            })
-            
-           $(".cursoli").each(function(){
-
-                if($(this).find('h1').text() != curso){
-                    $(this).addClass('hideli')
-                }
-            }) 
-
-            $('.logo').click(function(){
-                location.href =  baseURI + '';
-            })
-            $('.title').click(function(){
-                location.href =  baseURI + 'pages/curso.html';
-            })
-            $('.submenu li').click(function(){
-                location.href = baseURI + 'pages/categories.html';
-            })
- 
-
-        },100)
-        
-            
     </script>
+    <script src="../js/config.js"></script>
+    <script src="../js/routes.js"></script>
 </html>

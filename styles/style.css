@@ -38,7 +38,7 @@ body {
 
 .categories {
     font-size: 1.4em;
-    padding: 5px 0px 100px 30px;
+    padding: 10px 0px 100px 30px;
 }
 .categories:hover > .submenu {
     display: block;
@@ -47,7 +47,7 @@ body {
     content: "";
     width: 30px;
     height: 30px;
-    margin: 0px -45px;
+    margin: -5px -45px;
     background-image: url(../images/if_App_2638291.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ body {
     display: inline;
     margin-right: 15px;
     border-radius: 6px;
-    padding: 16px 20px 5px 37px;
+    padding: 14px 20px 10px 37px;
     border: 0.5px solid rgb(75, 75, 97);
     cursor: pointer;
 }
@@ -184,10 +184,11 @@ body {
     width: 500px;
     font-size: 5em;
     position: relative;
-    top: 220px;
+    top: 200px;
     left: 50px;
     color: rgb(209, 231, 226);
-    text-shadow:     0 1px 0 hsl(174,5%,80%),
+    text-shadow:     
+    0 1px 0 hsl(174,5%,80%),
     0 2px 0 hsl(174,5%,75%),
     0 3px 0 hsl(174,5%,70%),
     0 4px 0 hsl(174,5%,66%),
