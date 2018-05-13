@@ -52,6 +52,15 @@ setTimeout(function(){
         }else{
             cssStyle += ".smli" + i + "::before { background-image: url(" + $(this).attr('value') + ");}"
         }
+
+    })
+    $('.footerList li').each(function(i){
+        if(document.baseURI.match(/pages/) != null){
+            cssStyle += ".footerli" + i + "::before { background-image: url(../" + $(this).attr('value') + ");}"
+        }else{
+            cssStyle += ".footerli" + i + "::before { background-image: url(" + $(this).attr('value') + ");}"
+        }
+
     })
     var style = document.createElement('style');
     style.type = 'text/css';
@@ -60,6 +69,9 @@ setTimeout(function(){
 
     $('.submenu li').each(function(i){
         $(this).addClass("smli" + i)
+    })
+    $('.footerList li').each(function(i){
+        $(this).addClass("footerli" + i)
     })
 
 
@@ -82,6 +94,7 @@ setTimeout(function(){
             document.getElementsByClassName('saludoHead')[0].innerHTML = "Hola, " + user
             $('.saludoHead,.closeSession').show()
             $('.login,.registrate').hide()
+            location.href = baseURI + '';
             console.log(user.type)
         })
 

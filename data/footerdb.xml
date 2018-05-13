@@ -3,22 +3,22 @@
 <rrss>
     <item>
         <titulo>Twitter</titulo>
-        <link></link>
-        <icono></icono>
+        <link>http://twitter.es</link>
+        <icono>/images/gorjeo.svg</icono>
     </item>
     <item>
         <titulo>YouTube</titulo>
-        <link></link>
-        <icono></icono>
+        <link>http://youtube.com</link>
+        <icono>/images/youtube.svg</icono>
     </item>
     <item>
         <titulo>Facebook</titulo>
-        <link></link>
-        <icono></icono>
+        <link>http://facebok.com</link>
+        <icono>/images/facebook.svg</icono>
     </item>
     <item>
         <titulo>Instagram</titulo>
-        <link></link>
-        <icono></icono>
+        <link>http://instagram.com</link>
+        <icono>/images/instagram.svg</icono>
     </item>
 </rrss>

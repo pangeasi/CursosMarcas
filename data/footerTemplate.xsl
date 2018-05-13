@@ -3,15 +3,27 @@
 
    <xsl:template match="/">
 
-               <ul>
+               <ul class="footerList">
                    <xsl:for-each select="rrss/item">
                     <li>
                         <xsl:attribute name="value"><xsl:value-of select="icono"/></xsl:attribute>
+                        <a>
+                        <xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
 
-                        <xsl:value-of select="titulo"/>
+                            <xsl:value-of select="titulo"/>
+                        </a>
+                        
 
                     </li>
                    </xsl:for-each>
+                </ul>
+
+                <ul>
+                    <li><a href="http://danilab.es">¿Quienes somos?</a></li>
+                    <li><a href="http://danilab.es">Soporte</a></li>
+                    <li><a href="http://danilab.es">Blog</a></li>
+                    <li>Empleo</li>
+                    <li>Convierte en instructor</li>
                 </ul>
 
    </xsl:template>
