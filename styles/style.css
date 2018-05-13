@@ -315,10 +315,19 @@ footer {
     height: 300px;
     padding: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .2fr 1fr;
+
+}
+
+.vl {
+    height: 300px;
+    width: 20px;
+    border-left: 1px rgba(10, 71, 95, 0.384) solid;
+    
 }
 
 footer ul li {
+    color: rgb(10, 71, 95);
     list-style: none;
     font-size: 1.5em;
     padding: 18px;
@@ -326,8 +335,12 @@ footer ul li {
 }
 
 
-footer ul li a:visited,a:link,a:hover{
-    color: black;
+footer ul li a:visited,a:link{
+    color: rgb(10, 71, 95);
+    text-decoration-line: none;
+}
+footer ul li a:hover{
+    color: rgb(74, 142, 168);
     text-decoration-line: none;
 }
 .footerList li::before {

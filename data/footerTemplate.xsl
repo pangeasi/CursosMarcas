@@ -17,7 +17,9 @@
                     </li>
                    </xsl:for-each>
                 </ul>
-
+               
+                <div class="vl"></div>
+            
                 <ul>
                     <li><a href="http://danilab.es">¿Quienes somos?</a></li>
                     <li><a href="http://danilab.es">Soporte</a></li>
