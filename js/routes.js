@@ -11,10 +11,10 @@ setTimeout(function(){
         console.log(baseURI + 'pages/categories.html')
         location.href = baseURI + 'pages/categories.html';
     })
-    $('.registrate').click(function(){
+    $('.registrate,.aLog').click(function(){
         location.href = baseURI + 'pages/register.html';
     })
-    $('.login').click(function(){
+    $('.login,.aReg').click(function(){
         location.href = baseURI + 'pages/login.html';
     })
 },150)
