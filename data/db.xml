@@ -9,6 +9,7 @@
         <profesor>Julian Ortega</profesor>
         <horas>25</horas>
         <precio>29.99</precio>
+
     </curso>
     <curso>
         <titulo>Diseño de tipografia</titulo>
@@ -50,10 +51,11 @@
         <titulo>Ilustración para cartelería</titulo>
         <img>images/cursos/ilustracion.jpg</img>
         <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fuga quisquam mollitia impedit illum optio quam adipisci quae doloremque sed, harum quaerat repellendus officia ad, quidem totam accusamus, explicabo deleniti.</descripcion>
-        <categoria>Ilustración</categoria>
+        <categoria>Arte Gráfico</categoria>
         <profesor>Alicia Ramos</profesor>
         <horas>20</horas>
         <precio>9.99</precio>
+        <ytube>width="560" height="315" src="https://www.youtube.com/embed/qAOmhXtuRoY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></ytube>
     </curso>
     <curso>
         <titulo>Animacion Modulo 2</titulo>
@@ -123,6 +125,7 @@
         <profesor>Carla Sanchez</profesor>
         <horas>10</horas>
         <precio>19.99</precio>
+
     </curso>
     <curso>
         <titulo>Fotografía digital</titulo>
@@ -132,6 +135,7 @@
         <profesor>Carla Sanchez</profesor>
         <horas>10</horas>
         <precio>20.99</precio>
+
     </curso>
     <curso>
         <titulo>Fotografía nocturna</titulo>
@@ -150,6 +154,7 @@
         <profesor>Carla Sanchez</profesor>
         <horas>10</horas>
         <precio>39.99</precio>
+        <ytube>width="560" height="315" src="https://www.youtube.com/embed/C3NcRlj_1fk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></ytube>
     </curso>
     <curso>
         <titulo>Se un buen fotografo</titulo>

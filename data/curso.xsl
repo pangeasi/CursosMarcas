@@ -27,6 +27,12 @@
                                 background-size: cover;
                             </xsl:attribute>
                         </div>
+                        
+                        <div class="reg yt">
+                            <xsl:attribute name="yt">
+                                <xsl:value-of select="ytube"/>
+                            </xsl:attribute>
+                        </div>
                 </li>
             </xsl:for-each>
         </ul>

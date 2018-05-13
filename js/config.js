@@ -19,14 +19,27 @@ setTimeout(function(){
     categorie = localStorage.getItem("categorieName")
 
     if(document.baseURI.match(/categories/) == 'categories'){
+        let count = 0
         $('.categName').append('<h2>' + categorie + '</h2>')
-
         $(".curso li").each(function(){
-
+            
             if($(this).attr('value') != categorie){
                 $(this).addClass('hideli')
+            }else{
+                count++
             }
+
         })
+        if(count == 0){
+            $('.categName').append('<h1>No hay cursos disponibles</h1>')
+        }else{
+            if(count == 1){
+                $('.categName').append('<h1>' + count + ' curso disponibles</h1>')
+            }else{
+                $('.categName').append('<h1>' + count + ' cursos disponibles</h1>')
+            }
+            
+        }
     }
     
     $('.title').click(function(){
@@ -35,14 +48,21 @@ setTimeout(function(){
     curso = localStorage.getItem("cursoName")
 
     if(document.baseURI.match(/curso/) == 'curso'){
-        console.log("im here")
-        console.log(curso)
-        $(".cursoli").each(function(){
+
+        $(".cursoli").each(function(i){
 
             if($(this).find('h1').text() != curso){
                 $(this).addClass('hideli')
+            }else{
+                if($(this).find('.yt').attr('yt') != ''){
+                    $(this).find('.yt').html("<iframe " + $(this).find('.yt').attr('yt') + "</iframe>")
+                }
+                
             }
+            
         })
+        console.log($('.yt').attr('yt').text)
+        
     }
     
     
