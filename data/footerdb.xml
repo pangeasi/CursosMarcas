@@ -4,21 +4,21 @@
     <item>
         <titulo>Twitter</titulo>
         <link>http://twitter.es</link>
-        <icono>/images/gorjeo.svg</icono>
+        <icono>images/gorjeo.svg</icono>
     </item>
     <item>
         <titulo>YouTube</titulo>
         <link>http://youtube.com</link>
-        <icono>/images/youtube.svg</icono>
+        <icono>images/youtube.svg</icono>
     </item>
     <item>
         <titulo>Facebook</titulo>
         <link>http://facebok.com</link>
-        <icono>/images/facebook.svg</icono>
+        <icono>images/facebook.svg</icono>
     </item>
     <item>
         <titulo>Instagram</titulo>
         <link>http://instagram.com</link>
-        <icono>/images/instagram.svg</icono>
+        <icono>images/instagram.svg</icono>
     </item>
 </rrss>
