@@ -115,4 +115,103 @@
         <horas>30</horas>
         <precio>29.99</precio>
     </curso>
+    <curso>
+        <titulo>Controla la luz en la escena</titulo>
+        <img>images/cursos/foto.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>19.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografía digital</titulo>
+        <img>images/cursos/curso_basico_fotografia.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>20.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografía nocturna</titulo>
+        <img>images/cursos/act559892934.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>29.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografía profesional</titulo>
+        <img>images/cursos/download.jpeg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>39.99</precio>
+    </curso>
+    <curso>
+        <titulo>Se un buen fotografo</titulo>
+        <img>images/cursos/fotografo.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>10.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografía de eventos</titulo>
+        <img>images/cursos/V-16-07-18-B-Curso-de-Fotografia.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>50.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografia analógica</titulo>
+        <img>images/cursos/curso-fotografc3ada.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>119.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografia de 0 a 100</titulo>
+        <img>images/cursos/seni-melihat-fotografi.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>99.99</precio>
+    </curso>
+    <curso>
+        <titulo>Domina la composición</titulo>
+        <img>images/cursos/curso-gratis-fotografia.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>69.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografía para deportes</titulo>
+        <img>images/cursos/digital500.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>19.99</precio>
+    </curso>
+    <curso>
+        <titulo>Fotografia para principiantes</titulo>
+        <img>images/cursos/canon-curso-fotografiasp.jpg</img>
+        <descripcion>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus, corporis necessitatibus officiis eveniet sed accusamus sequi, maiores id ab itaque? In nesciunt repudiandae vitae dolores doloremque iste dolore possimus.</descripcion>
+        <categoria>Fotografía</categoria>
+        <profesor>Carla Sanchez</profesor>
+        <horas>10</horas>
+        <precio>9.99</precio>
+    </curso>
 </cursos>
