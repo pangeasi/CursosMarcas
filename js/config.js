@@ -99,8 +99,8 @@ setTimeout(function(){
         })
 
 
-
-    if(user == 'null'){
+        console.log(user)
+    if(user == 'null' || user == null){
         loged = false
         $('.login,.registrate').show()
         $('.saludoHead,.closeSession').hide()
